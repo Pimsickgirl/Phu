@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' />
+</head>
+
+<body>
+    <navbar>
+        <nav class="fixed z-10 flex flex-wrap w-full justify-center py-[1rem] h-14 bg-slate-900 border-gray-200 px-[2rem] sm:h-20">
+            <div class="container text-white justify-between flex items-center mx-auto">
+            <a href="#">
+                <div class="text-xl md:text-3xl font-bold">
+                Portfolio
+                </div>
+            </a>
+            <div class="hidden justify-between items-center w-full md:flex md:w-auto">
+                <div class="flex flex-col md:flex-row md:space-x-10 md:font-medium md:text-xl">
+                <a href="#about" class="hover:text-sky-700"><div>About</div></a>
+                <a href="#work" class="hover:text-sky-700"><div>Work</div></a>
+                <a href="#activity" class="hover:text-sky-700"><div>Activities</div></a>
+                <a href="#cert" class="hover:text-sky-700"><div>Certificate</div></a>
+                </div>
+            </div>
+
+            <a href="#contact"><button type="button" class="hidden text-white bg-sky-500 font-semibold rounded-lg text-xl text-center mr-4 px-4 py-2 hover:bg-sky-600 md:mr-0 md:inline-block sm:px-[2rem] sm:py-[0.5rem]">Contact</button></a>
+
+            <div  onclick="myFunction()" class="text-center p-auto p-1 flex flex-col space-y-2 rounded shadow md:hidden hover:scale-105 duration-300 ease-in-out">
+                <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                <span class="block w-5 h-0.5 bg-gray-100 animate-pulse"></span>
+            </div>
+            </div>
+        </nav>
+            <div id="MenuMol" class="hidden flex top-14 z-10 fixed bg-slate-900 w-full pb-8">
+                <div class="flex flex-col pt-4 gap-4 text-white ml-8">
+                <a href="#about" class=" hover:text-sky-700">
+                    <div>About</div>
+                </a>
+                <a href="#work" class="hover:text-sky-700">
+                    <div>Work</div>
+                </a>
+                <a href="#activity" class=" hover:text-sky-700">
+                    <div>Activities</div>
+                </a>
+                <a href="#cert" class=" hover:text-sky-700">
+                    <div>Certificate</div>
+                </a>
+                <a href="#contact">
+                    <button type="button" class="mt-4 text-white bg-sky-500 font-semibold rounded-lg text-l text-center mr-4 px-4 py-2 hover:bg-sky-500">Contact</button>
+                </a>
+                </div>
+            </div>
+    </navbar>
+
+
+    <div class="pt-72 bg-no-repeat bg-cover back">
+        <div class="container mx-auto flex flex-wrap flex-col md:items-center md:flex-row">
+            <div class="flex flex-wrap flex-col md:w-2/5 w-full pl-4 justify-center items-start md:pl-0 md:text-left">
+                <h2 class="my-4 text-2xl sm:text-4xl animate-pulse font-bold w-full">HELLO!, I'M</h2>
+                <h1 class="text-2xl sm:text-6xl text-sky-600 font-bold space-y-1 mb-4">SUPHAKAN SEEYA</h1>
+                <p class="font-bold text-black text-l sm:text-2xl">A self-taught programmer,and a student of Takpittayakhom!</p>
+                <button class=" lg:mx-0 bg-sky-500 text-white font-bold rounded-full mb-10 my-6 py-3 px-6 sm:py-4 sm:px-8 shadow-lg focus:ring focus:ring-slate-700 transform transition hover:scale-105 duration-300 ease-in-out">
+                <a href="https://www.canva.com/design/DAFw8BmwVwQ/HZa1a_HdMvi2lTnvhj04ZQ/view?utm_content=DAFw8BmwVwQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">See Portfolio</a>
+                </button>
+                <div class="flex flex-wrap flex-row ">
+                    </a>
+                    <a href="https://www.facebook.com/suphakan.seeya/" target="_blank">
+                        <div class="text-xl ml-4 text-slate-900 flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-sky-500	hover:bg-sky-400 hover:text-white  mb-5 transform transition hover:scale-105 duration-300 ease-in-out">
+                            <i class="fab fa-facebook-f">
+                            </i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/phuspk.s/" target="_blank">
+                        <div class="text-xl ml-4 text-slate-900 flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-sky-500 hover:bg-sky-400 hover:text-white  mb-5 transform transition hover:scale-105 duration-300 ease-in-out">
+                            <i class="fab fa-instagram">
+                            </i>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Pimsickgirl" target="_blank">
+                        <div class="text-xl ml-4 text-slate-900 flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-sky-500 hover:bg-sky-400 hover:text-white  mb-40 transform transition hover:scale-105 duration-300 ease-in-out">
+                            <i class="fab fa-github">
+                            </i>
+                        </div>
+                    </a>
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-3/5 py-6 text-center">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="w-full scroll-mt-20">
+        <div class="flex text-center justify-center flex-row pt-36 w-full mb-5">
+            <h1 class="text-5xl font-bold">WHO AM I</h1>
+            <h1 class="ml-4 animate-spin text-5xl font-bold">?</h1>
+        </div>
+
+        <div class="flex text-center justify-center flex-row">
+            <p class="text-xl font-medium text-gray-700 mb-20">Learn more about me!</p>
+        </div>
+
+        <div class="container mx-auto flex flex-wrap flex-col md:items-center md:flex-row">
+
+        <div class="flex flex-col md:w-1/2 w-full pl-4 md:pl-0">
+            <h1 class="flex font-bold text-4xl self-center pr-0 pb-20 md:pr-20">ABOUT ME</h1>
+            <div class="flex flex-col  items-start md:flex-row justify-between mt-16 md:mt-0 pl-2 md:p-2 md:w-full">
+                <div class="text-start text-left">
+                    <h1 class="text-2xl font-bold">Date of Birth</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">08 August 2005</p>
+                    <h1 class="text-2xl font-bold pt-10">Phone</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">096 674 5094</p>
+                    <h1 class="text-2xl font-bold pt-10">Languages</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">Thai</p>
+                    <p class="font-medium text-slate-400 text-xl pt-2">English</p>
+                </div>
+                <div class="mt-10 md:mt-0">
+                    <h1 class="text-2xl items-end font-bold">Email</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">suphakanseeya@gmail.com</p>
+                    <h1 class="text-2xl items-end font-bold pt-10">Address</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">Tak, Muang Tak</p>
+                    <h1 class="text-2xl items-end font-bold pt-10">Education</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">Takpittayakhom School</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center w-full md:w-1/2 py-6 text-center pl-4 md:pl-0">
+            <h1 class=" flex font-bold text-4xl mt-10 pb-20 md:mt-0">SKILLS & ABILITIES</h1>
+            <div class="flex justify-center flex-col md:flex-row mt-16 md:mt-0 md:w-full h-auto">
+                <div class="text-start pl-0 md:pl-4">
+                    <h1 class="text-2xl items-end font-bold">Programming Languages</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">HTML, CSS, JavaScript, Python, C#</p>
+                    <h1 class="text-2xl items-end font-bold pt-10">Website Development</h1>
+                    <p class="font-medium text-slate-400 text-xl pt-2">Front-end: React.js, Next.js, TailwindCSS</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="work" class="w-full bg-slate-900 text-white flex flex-col items-center mx-auto scroll-mt-24 mt-24 pb-24">
+        <div class="sm:pl-0 pl-2 md:w-1/3 text-left md:text-center flex-nowrap pt-24">
+            <h1 class="hidden mr-4 animate-spin text-5xl font-bold sm:inline-block">⭐</h1>
+            <h1 class="text-5xl font-bold sm:inline-block">MY WORKS</h1>
+            <h1 class="hidden ml-4 animate-spin text-5xl font-bold xl:inline-block">⭐</h1>
+            <p class="text-white text-xl font-medium mt-8">These are all the work I have done</p>
+        </div>
+
+        <div class="mt-6 flex">
+            <button id="work-but" type="button" onclick="See()"
+                class="mt-4 text-white bg-sky-500 font-semibold rounded-lg text-l text-center mr-4 px-4 py-2 hover:bg-red-600 focus:bg-sky-500">See less</button>
+        </div>
+
+        <div id="cardmom" class="flex flex-row justify-center items-start flex-wrap gap-x-10 gap-y-12 mt-8">
+            <div class="flex flex-col jusity-center text-center items-center w-80 hover:scale-105 duration-300 ease-in-out" >
+                <div>
+                    <img alt="This Website" src="./images/Port.png" class="object-cover rounded-2xl w-80 h-80">
+                </div>
+                <h2 class="mt-3 text-2xl font-bold">Portfolio Website (this project)</h2>
+                <p class="text-xl font-medium mt-3 text-sky-400">I develop my own Portfolio website</p>
+            </div>
+
+            <div class="flex flex-col jusity-center text-center items-center w-80 hover:scale-105 duration-300 ease-in-out">
+                <div>
+                    <img alt="Drone Show" src="./images/Drone.jpg" class="object-cover rounded-2xl w-80 h-80">
+                </div>
+                <h2 class="mt-3 text-2xl font-bold">Drone Light Show</h2>
+                <p class="text-xl font-medium mt-3 text-sky-400">Drone Light Show at Tak Technical College There was a group that came to train and teach how to make drone using the Blender program.</p>
+            </div>
+
+            <div class="card flex flex-col jusity-center text-center items-center w-80 hover:scale-105 duration-300 ease-in-out">
+                <div>
+                    <img alt="Design Program" src="./images/DevCsharb.png" class="object-cover rounded-2xl w-80 h-80">
+                </div>
+                <h2 class="mt-3 text-2xl font-bold">C# Program</h2>
+                <p class="text-xl font-medium mt-3 text-sky-400">Designed and coded all the code including the Login page and Gen QRcode page</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="activity" class="w-full flex flex-col items-center mx-auto scroll-mt-24 mt-48 mb-48">
+        <div class="sm:pl-0 pl-2 md:w-1/3 text-left md:text-center flex-nowrap">
+            <h1 class="hidden mr-4 animate-spin text-5xl font-bold sm:inline-block">⭐</h1>
+            <h1 class="text-5xl font-bold sm:inline-block">ACTIVITIES</h1>
+            <h1 class="hidden ml-4 animate-spin text-5xl font-bold xl:inline-block">⭐</h1>
+            <p class="text-gray-700 text-xl font-medium mt-8">All mind-opening and fascinating places and events that I have been roaming since last 3 years!</p>
+        </div>
+
+        <div class="mt-6 flex">
+            <button id="work-but2" type="button" onclick="See2()" 
+                class="mt-4 text-white bg-sky-500 font-semibold rounded-lg text-l text-center mr-4 px-4 py-2 hover:bg-red-600 focus:bg-sky-400 ">See
+                less</button>
+        </div>
+
+        <div class="flex flex-row justify-center items-start flex-wrap gap-x-10 gap-y-12 mt-8">
+            <div class="flex flex-col jusity-center text-center items-center w-80 hover:scale-105 duration-300 ease-in-out">
+                <div>
+                    <img alt="Drone66" src="./images/DroneI.jpg" class="object-cover rounded-2xl w-80 h-80">
+                </div>
+                <h2 class="mt-3 text-2xl font-bold text-slate-900">Drone Light Show'66</h2>
+                <p class="text-xl font-medium mt-3 text-gray-700">I've got selected in Drone Camp,  I've learned several things including Blender and Drone Light Shower</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="cert" class="scroll-mt-24 bg-slate-900 text-white" >
+        <div class="flex flex-row justify-center items-start flex-wrap gap-x-10 gap-y-12 pt-24">
+            <div class="sm:pl-0 pl-2 md:w-1/3 text-left md:text-center">
+                <h1 class="text-5xl font-bold sm:inline-block">CERTIFICATES</h1>
+                <p class="text-gray-300 text-xl font-medium mt-8">All certificated I have recieved since last..... you know, three years.</p>
+            </div>
+        </div>
+
+        <div class="overflow-auto gap-x-10 gap-y-12">
+            <div class="relative align-center snap-x gap-24 flex overflow-x-auto pb-36 pt-14">
+                <div class="snap-center shrink-0">
+                <div>
+                    <img alt="DroneCerti" src="./cert/Dronex.jpg" class="object-cover rounded-2xl w-160 h-80">
+                </div>
+                <h2 class="mt-3 text-2xl font-bold text-white">Drone Light Show (Onsite)</h2>
+                </div>
+
+                <div class="snap-center shrink-0">
+                    <div>
+                        <img alt="ItronixSolutions" src="./cert/python.png" class="object-cover rounded-2xl w-160 h-80">
+                    </div>
+                    <h2 class="mt-3 text-2xl font-bold text-white">Itronix Solutions, Python Course (Online)</h2>
+                </div>
+
+                <div class="snap-center shrink-0">
+                    <div>
+                        <img alt="CSharb" src="./cert/CSharb.png" class="object-cover rounded-2xl w-160 h-80">
+                    </div>
+                    <h2 class="mt-3 text-2xl font-bold text-white">C# (Basic)</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="project" class="w-full flex flex-col items-center mx-auto scroll-mt-24 mt-4">
+        <div class="flex flex-row justify-center items-start flex-wrap gap-x-10 gap-y-12 mt-48">
+            <div class="sm:pl-0 pl-2 md:w-4/5 text-left md:text-center">
+                <h1 class="text-5xl font-bold sm:inline-block">THIS PROJECT</h1>
+                <p class="text-gray-700 text-xl font-medium mt-8">This Portfolio Website is a rush project. This project was develope between 24-28 October 2023. The Project is built with VanillaJS, tailwindCSS, and icons from google. You can see my code in my github! </p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <footer id="contact" class="scroll-mt-24 bg-slate-900 py-5 px-10 mt-24">
+            <div class="container mx-auto my-8 font-medium flex flex-col items-start gap-y-12 sm:flex-row sm:items-start sm:justify-between">
+                <div class=" mt-2">
+                    <h1 class="text-2xl text-white font-bold">CONTACT</h1>
+                    <p class="text-gray-200 mt-2">suphakanseeya@gmail.com</p>
+                    <p class="text-gray-200 mt-2">Nam Ruem, Muang Tak, Tak</p>
+                    <p class="text-gray-200 mt-2">0966745094</p>
+                </div>
+
+                <div class="mt-2">
+                    <h1 class="text-2xl text-white font-bold">CREDITS</h1>
+                    <a href="https://tailwindcss.com/" target="_blank"><p class="text-gray-200 mt-2 hover:text-sky-400  transform transition hover:scale-105 duration-300 ease-in-out">TailwindCSS</p></a>
+                    <a href="https://viruskizz.github.io/" target="_blank"><p class="text-gray-200 mt-2 hover:text-sky-400  transform transition hover:scale-105 duration-300 ease-in-out">Viruskizz: Idea</p></a>
+                    <a href="https://www.printmag.com/design-news/someone-just-bought-a-gif-for-half-a-million-dollars/" target="_blank"><p class="text-gray-200 mt-2 hover:text-sky-400  transform transition hover:scale-105 duration-300 ease-in-out">Pixel Art Background</p></a>
+                </div>
+            </div>
+
+            <hr class="mx-24">
+
+            <div class="flex flex-col items-center ">
+                <div class="flex flex-row gap-3 mt-8 mb-4">
+                    <a href="https://www.facebook.com/suphakan.seeya/" class="text-xl text-slate-900 flex items-center justify-center w-8 h-8 rounded-full bg-sky-600 hover:bg-sky-400 hover:text-white  transform transition hover:scale-105 duration-300 ease-in-out">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    
+
+                    <a href="https://www.instagram.com/phuspk.s/" target="_blank" class="text-xl text-slate-900 flex items-center justify-center w-8 h-8 rounded-full bg-sky-600 hover:bg-sky-400 hover:text-white  transform transition hover:scale-105 duration-300 ease-in-out">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    
+
+                    <a href="https://github.com/Pimsickgirl" target="_blank"
+                        class="text-xl text-slate-900 flex items-center justify-center w-8 h-8 rounded-full bg-sky-600 hover:bg-sky-400 hover:text-white  transform transition hover:scale-105 duration-300 ease-in-out">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                </div>
+                <p class="text-gray-200 italic">Copyright © 2023. Suphakan Seeya All rights reserved</p>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
+
